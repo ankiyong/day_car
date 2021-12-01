@@ -43,4 +43,4 @@ def news_save():
     car_db.commit()
     print('News Success')
     
-news_save()
+# news_save()

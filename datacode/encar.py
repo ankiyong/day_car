@@ -85,9 +85,9 @@ def add_info(option):
 def to_df(option):
     info = add_info(option)
     df = pd.DataFrame(info)
-    return df
+    return df,info
 
-def to_db(info1,table):
+def to_db(info1):
     car_db = pymysql.connect(
         user='root',
         passwd='1234',
@@ -97,7 +97,7 @@ def to_db(info1,table):
     )
     cursor = car_db.cursor(pymysql.cursors.DictCursor)
     info = info1
-    insert_sql2 = f"INSERT INTO {table} VALUES (%(brand)s,%(name)s,%(model)s,%(trim)s,%(fuel)s,%(km)s,%(year)s,%(location)s,%(price)s,%(link)s,%(photo)s,%(color)s,%(accident)s);"
+    insert_sql2 = f"INSERT INTO raw_data VALUES (%(brand)s,%(name)s,%(model)s,%(trim)s,%(fuel)s,%(km)s,%(year)s,%(location)s,%(price)s,%(link)s,%(photo)s,%(color)s,%(accident)s);"
     cursor.executemany(insert_sql2, info)
     car_db.commit()
 

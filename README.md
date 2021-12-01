@@ -41,3 +41,5 @@
 
 <img src="README.assets/gif.gif" alt="gif" style="zoom:80%;" /> <img src="README.assets/buy.gif" alt="buy" style="zoom:80%;" />
 
+ [Dashboard](dashboard\index.html) 
+
