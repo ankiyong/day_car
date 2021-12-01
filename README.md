@@ -27,7 +27,7 @@
 
 1. 차량 가격 예측(판매) / 매물 정보 검색(구매) 페이지
 
-<img src="README.assets/gif.gif" alt="gif" style="zoom: 45%;" /> <img src="README.assets/buy.gif" alt="buy" style="zoom: 45%;" />
+<img src="README.assets/gif.gif" alt="gif" width="475" /> <img src="README.assets/buy.gif" alt="buy" width="475" />
 
  [Dashboard](dashboard\index.html) 
 
