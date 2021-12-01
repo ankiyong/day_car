@@ -31,3 +31,54 @@
 
  [Dashboard](dashboard\index.html) 
 
+2. 데이터 파이프라인
+
+   1. 수집
+
+      - BeautifulSoup을 사용하여 encar,kcar 사이트의 중고차 정보와 차량 관련 뉴스 데이터 크롤링<img src="README.assets/수집.png" alt="gif" width="500" />
+
+   2. 저장
+
+      - Raw데이터 DB구축
+
+      ![DB](README.assets/DB.png)
+
+      
+
+   3. 전처리
+
+      - Python에서 Spark session을 사용하여 학습데이터 셋으로 가공
+
+        ![image-20211201174645562](README.assets/image-20211201174645562.png)
+
+   4. 적재
+
+      - Hadoop 
+
+   5. 
+
+      - 
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
