@@ -19,21 +19,9 @@
 
 #### 4. Skill
 
-- Python
+<img src="README.assets/image-20211201154258931.png" alt="image-20211201154258931" style="zoom:45%;" />    ![image-20211201154456902](README.assets/image-20211201154456902.png)![image-20211201154451673](README.assets/image-20211201154451673.png)    ![image-20211201154445748](README.assets/image-20211201154445748.png)![image-20211201154439609](README.assets/image-20211201154439609.png)
 
-- Spark
-
-- Hadoop
-
-- Django
-
-- Bs4
-
-- Pandas
-
-- Mysql
-
-  
+​     ![image-20211201154434847](README.assets/image-20211201154434847.png)          ![image-20211201154427757](README.assets/image-20211201154427757.png)         ![image-20211201154419520](README.assets/image-20211201154419520.png)    <img src="README.assets/image-20211201154311071.png" alt="image-20211201154311071" style="zoom: 67%;" />    ![image-20211201154401086](README.assets/image-20211201154401086.png)    
 
 #### 5. Outputs
 
