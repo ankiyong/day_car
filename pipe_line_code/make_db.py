@@ -11,8 +11,9 @@ def spark():
         .master("yarn")\
         .appName("Python Spark SQL basic example")\
         .getOrCreate()
+    #하둡에 적재된 csv파일 불러오기
+    df = spark.read.format("csv").option("header","true").load("/uset/engineer/all_csv.csv")
 
-    df = spark.read.format("csv").option("header","true").load("all_csv.csv")
     return df
 #spark sql을 사용하여 전처리 진행
 def edit():

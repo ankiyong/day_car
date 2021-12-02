@@ -42,6 +42,3 @@ save_db(list)
 
 #news 크롤링 데이터를 db에 저장
 news_save()
-
-#전처리된 데이터를 db에 저장
-savedb()
