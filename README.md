@@ -35,7 +35,15 @@
 
 
 
-2. 데이터 파이프라인
+2. Dashboard
+
+   - 수집한 데이터로 dashboard를 만들어 시각화 진행
+
+   ![dash](README.assets/dash.png)
+
+   
+
+3. 데이터 파이프라인
 
    1. 수집
 
@@ -47,56 +55,24 @@
 
         ![DB](README.assets/DB.png)
 
-        
+   3. 적재
 
-      - 적재
+      - Hadoop에 Raw 데이터 csv파일 적재
 
-        - Hadoop에 Raw 데이터 csv파일 적재
+   4. 전처리
 
-      - 전처리
+      - Python에서 Spark session을 사용하여 Hadoop에 적재된 csv를 불러와 학습데이터로 가공
 
-        - Python에서 Spark session을 사용하여 Hadoop에 적재된 csv를 불러와 학습데이터로 가공
+        ![image-20211201174645562](README.assets/image-20211201174645562.png)
 
-          ![image-20211201174645562](README.assets/image-20211201174645562.png)
+   5. 적재 및 저장
 
-          
+      - 학습데이터 csv파일을 Hadoop에 적재 및 Mysql에 학습데이터 DB구축
 
-      - 적재 및 저장
+        ![data](README.assets/data.png)
 
-        - 학습데이터 csv파일을 Hadoop에 적재 및 Mysql에 학습데이터 DB구축
+   6. 최종 ERD
 
-          ![data](README.assets/data.png)
-
-      - 최종 ERD
-
-        - 상단 2개 테이블은 컬럼명이 같지만 향후 
-
-          업체별 검색기능 도입을 위해 테이블을 분리함
+      - 상단 2개 테이블은 컬럼명이 같지만 향후 업체별 검색기능 도입을 위해 테이블을 분리함
 
         <img src="README.assets/ERD.png" alt="ERD" style="height:600px;float:left" />
-
-        
-
-        
-
-        
-
-        
-
-   3. Dashboard
-
-      - 수집한 데이터로 dashboard를 만들어 시각화 진행
-
-      ![dash](README.assets/dash.png)
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
