@@ -25,9 +25,9 @@ os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECRET_KEY = 'django-insecure-+zm(g+hh3!ypznrd=em@-tf)rkn*vfv-xugk)(w#m5levmux4v'
 SECRET_KEY = my_settings.SECRET_KEY
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['ankiyong.pythonanywhere.com']
 
 
 # Application definition
