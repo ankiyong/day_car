@@ -65,7 +65,7 @@ Machine Learning과 Meta Search 기반의 중고차 가격 정보 제공 서비�
 ### **2. Dashboard**
 
   ##### 수집한 데이터로 dashboard를 만들어 시각화 진행
-      
+
    [Dashboard Link](https://day-car.com/dash/#)
        
 ![README.assets/dash.png](README.assets/dash.png)
@@ -82,27 +82,26 @@ Machine Learning과 Meta Search 기반의 중고차 가격 정보 제공 서비�
 ##### Raw데이터 DB구축(추후 매물정보 제공에 사용)
   ![README.assets/DB.png](README.assets/DB.png)
             
-    <!--  최종ERD 비교를위해 초기 ERD 첨부해도 좋음 -->
-            
+
 **3. 적재**
 
   ##### Hadoop에 Raw 데이터 csv파일 적재
 
 <!-- hadoop 처리 로직이나 설정관련  -->
-  
+
 **4. 전처리**
   ##### Python에서 Spark session을 사용하여 Hadoop에 적재된 csv를 불러와 학습데이터로 가공
-            
+
 ![README.assets/image-20211201174645562.png](README.assets/image-20211201174645562.png)
             
 
 **5. 적재 및 저장**
   ##### 학습데이터 csv파일을 Hadoop에 적재 및 Mysql에 학습데이터 DB구축
-            
+
 ![README.assets/data.png](README.assets/data.png)
             
             
 **6. 최종 ERD**
   ##### 상단 2개 테이블은 컬럼명이 같지만 향후 업체별 검색기능 도입을 위해 테이블을 분리함
-            
+
 ![README.assets/ERD.png](README.assets/ERD.png)
