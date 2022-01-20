@@ -66,9 +66,9 @@ Machine Learning과 Meta Search 기반의 중고차 가격 정보 제공 서비�
 
   ##### 수집한 데이터로 시각화 진행
 
-   [Dashboard Link](http://52.78.91.136:8000/cars)
+   [Link](http://52.78.91.136:8000/cars)
        
-![README.assets/dash.png](README.assets/dash.png)
+![README.assets/dash.png](README.assets/graph.png)
     
     
     
