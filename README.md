@@ -54,7 +54,7 @@ Machine Learning과 Meta Search 기반의 중고차 가격 정보 제공 서비�
 
 <!-- 소소코드 링크 첨부하기 -->
     
-[Page Link](https://day-car.com/#) | [Source Code Link](https://github.com/ankiyong/day_car/tree/master/daycar)
+[Page Link](http://52.78.91.136:8000) | [Source Code Link](https://github.com/ankiyong/day_car/tree/master/daycar)
     
 
 ![README.assets/gif.gif](README.assets/gif.gif)
@@ -62,11 +62,11 @@ Machine Learning과 Meta Search 기반의 중고차 가격 정보 제공 서비�
 ![README.assets/buy.gif](README.assets/buy.gif)
 
 
-### **2. Dashboard**
+### **2. 시각화**
 
-  ##### 수집한 데이터로 dashboard를 만들어 시각화 진행
+  ##### 수집한 데이터로 시각화 진행
 
-   [Dashboard Link](https://day-car.com/dash/#)
+   [Dashboard Link](http://52.78.91.136:8000/cars)
        
 ![README.assets/dash.png](README.assets/dash.png)
     
